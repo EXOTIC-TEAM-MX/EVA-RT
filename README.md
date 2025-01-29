@@ -4,3 +4,5 @@ EVA-RT es nueva serie de robotracers con impeller centrifugo y sensores laterale
 Logros obtenidos:
 
 ACRC2025 - 1er y 2do lugar
+
+![]()
