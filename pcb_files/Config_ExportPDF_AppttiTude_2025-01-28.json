@@ -1,0 +1,909 @@
+{
+	"fileName": "PCB_EVA_RT_PCB_2025-01-28",
+	"language": "en",
+	"pageSet": "paged",
+	"needMenu": true,
+	"needAnnot": false,
+	"onlyShowStroke": false,
+	"customPage": [
+		{
+			"checked": false,
+			"object": [],
+			"layer": [
+				{
+					"layerId": 1,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Layer",
+					"color": "#990033"
+				},
+				{
+					"layerId": 2,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Layer",
+					"color": "#6699cc"
+				},
+				{
+					"layerId": 3,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Silkscreen Layer",
+					"color": "#ffcc00"
+				},
+				{
+					"layerId": 4,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Silkscreen Layer",
+					"color": "#66cc33"
+				},
+				{
+					"layerId": 5,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Solder Mask Layer",
+					"color": "#800080"
+				},
+				{
+					"layerId": 6,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Solder Mask Layer",
+					"color": "#aa00ff"
+				},
+				{
+					"layerId": 7,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Paste Mask Layer",
+					"color": "#808080"
+				},
+				{
+					"layerId": 8,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Paste Mask Layer",
+					"color": "#800000"
+				},
+				{
+					"layerId": 9,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Assembly Layer",
+					"color": "#33cc99"
+				},
+				{
+					"layerId": 10,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Assembly Layer",
+					"color": "#5555ff"
+				},
+				{
+					"layerId": 11,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Board Outline Layer",
+					"color": "#ff00ff"
+				},
+				{
+					"layerId": 12,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Multi-Layer",
+					"color": "#c0c0c0"
+				},
+				{
+					"layerId": 13,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Document Layer",
+					"color": "#ffffff"
+				},
+				{
+					"layerId": 14,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Mechanical Layer",
+					"color": "#f022f0"
+				},
+				{
+					"layerId": 47,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Hole Layer",
+					"color": "#222222"
+				},
+				{
+					"layerId": 48,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Shape Layer",
+					"color": "#00cccc"
+				},
+				{
+					"layerId": 49,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Marking Layer",
+					"color": "#66ffcc"
+				},
+				{
+					"layerId": 50,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Soldering Layer",
+					"color": "#cc9999"
+				},
+				{
+					"layerId": 51,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Floating Layer",
+					"color": "#ff99ff"
+				},
+				{
+					"layerId": 53,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Outline Layer",
+					"color": "#66ff99"
+				},
+				{
+					"layerId": 54,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Top Layer",
+					"color": "#ffccff"
+				},
+				{
+					"layerId": 55,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Bottom Layer",
+					"color": "#0066cc"
+				},
+				{
+					"layerId": 56,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Drill Drawing Layer",
+					"color": "#008080"
+				},
+				{
+					"layerId": 57,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Ratline Layer",
+					"color": "#009999"
+				}
+			],
+			"name": "Top Assembly Drawings",
+			"pageNo": 1,
+			"colorType": "Black on White"
+		},
+		{
+			"checked": false,
+			"object": [
+				"TopPad",
+				"BottomPad",
+				"MultiPad",
+				"Via",
+				"PadDrill",
+				"ViaDrill",
+				"Track",
+				"Text",
+				"Image",
+				"Dimension",
+				"BoardOutline",
+				"BoardCutout",
+				"CopperOutline",
+				"CopperFilled",
+				"TearDrop",
+				"SolidRegion",
+				"ProhibitedRegion",
+				"FPCStiffener",
+				"Line",
+				"PlaneZone",
+				"ComponentProperty",
+				"ComponentSilkscreen",
+				"Shell_Outline",
+				"Shell_ScrewPillar",
+				"Shell_SideDatumLine",
+				"Shell_SideSlotRegion",
+				"Shell_TopBottomSlotRegion",
+				"Shell_SideEntity",
+				"Shell_TopBottomEntity"
+			],
+			"layer": [
+				{
+					"layerId": 1,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Layer",
+					"color": "#990033"
+				},
+				{
+					"layerId": 2,
+					"isMirror": true,
+					"transparency": 80,
+					"checked": true,
+					"layerName": "Bottom Layer",
+					"color": "#6699cc"
+				},
+				{
+					"layerId": 3,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Silkscreen Layer",
+					"color": "#ffcc00"
+				},
+				{
+					"layerId": 4,
+					"isMirror": true,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Bottom Silkscreen Layer",
+					"color": "#66cc33"
+				},
+				{
+					"layerId": 5,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Solder Mask Layer",
+					"color": "#800080"
+				},
+				{
+					"layerId": 6,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Solder Mask Layer",
+					"color": "#aa00ff"
+				},
+				{
+					"layerId": 7,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Paste Mask Layer",
+					"color": "#808080"
+				},
+				{
+					"layerId": 8,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Paste Mask Layer",
+					"color": "#800000"
+				},
+				{
+					"layerId": 9,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Assembly Layer",
+					"color": "#33cc99"
+				},
+				{
+					"layerId": 10,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Assembly Layer",
+					"color": "#5555ff"
+				},
+				{
+					"layerId": 11,
+					"isMirror": true,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Board Outline Layer",
+					"color": "#ff00ff"
+				},
+				{
+					"layerId": 12,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Multi-Layer",
+					"color": "#c0c0c0"
+				},
+				{
+					"layerId": 13,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Document Layer",
+					"color": "#ffffff"
+				},
+				{
+					"layerId": 14,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Mechanical Layer",
+					"color": "#f022f0"
+				},
+				{
+					"layerId": 47,
+					"isMirror": true,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Hole Layer",
+					"color": "#222222"
+				},
+				{
+					"layerId": 48,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Shape Layer",
+					"color": "#00cccc"
+				},
+				{
+					"layerId": 49,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Marking Layer",
+					"color": "#66ffcc"
+				},
+				{
+					"layerId": 50,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Soldering Layer",
+					"color": "#cc9999"
+				},
+				{
+					"layerId": 51,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Floating Layer",
+					"color": "#ff99ff"
+				},
+				{
+					"layerId": 53,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Outline Layer",
+					"color": "#66ff99"
+				},
+				{
+					"layerId": 54,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Top Layer",
+					"color": "#ffccff"
+				},
+				{
+					"layerId": 55,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Bottom Layer",
+					"color": "#0066cc"
+				},
+				{
+					"layerId": 56,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Drill Drawing Layer",
+					"color": "#008080"
+				},
+				{
+					"layerId": 57,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Ratline Layer",
+					"color": "#009999"
+				}
+			],
+			"name": "Bottom Assembly Drawings",
+			"pageNo": 2,
+			"colorType": "Black on White"
+		},
+		{
+			"checked": false,
+			"object": [
+				"TopPad",
+				"BottomPad",
+				"MultiPad",
+				"Via",
+				"PadDrill",
+				"ViaDrill",
+				"Track",
+				"Text",
+				"Image",
+				"Dimension",
+				"BoardOutline",
+				"BoardCutout",
+				"CopperOutline",
+				"CopperFilled",
+				"TearDrop",
+				"SolidRegion",
+				"ProhibitedRegion",
+				"FPCStiffener",
+				"Line",
+				"PlaneZone",
+				"ComponentProperty",
+				"ComponentSilkscreen",
+				"Shell_Outline",
+				"Shell_ScrewPillar",
+				"Shell_SideDatumLine",
+				"Shell_SideSlotRegion",
+				"Shell_TopBottomSlotRegion",
+				"Shell_SideEntity",
+				"Shell_TopBottomEntity"
+			],
+			"layer": [
+				{
+					"layerId": 1,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Layer",
+					"color": "#990033"
+				},
+				{
+					"layerId": 2,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Layer",
+					"color": "#6699cc"
+				},
+				{
+					"layerId": 3,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Silkscreen Layer",
+					"color": "#ffcc00"
+				},
+				{
+					"layerId": 4,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Silkscreen Layer",
+					"color": "#66cc33"
+				},
+				{
+					"layerId": 5,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Solder Mask Layer",
+					"color": "#800080"
+				},
+				{
+					"layerId": 6,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Solder Mask Layer",
+					"color": "#aa00ff"
+				},
+				{
+					"layerId": 7,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Paste Mask Layer",
+					"color": "#808080"
+				},
+				{
+					"layerId": 8,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Paste Mask Layer",
+					"color": "#800000"
+				},
+				{
+					"layerId": 9,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Assembly Layer",
+					"color": "#33cc99"
+				},
+				{
+					"layerId": 10,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Assembly Layer",
+					"color": "#5555ff"
+				},
+				{
+					"layerId": 11,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Board Outline Layer",
+					"color": "#ff00ff"
+				},
+				{
+					"layerId": 12,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Multi-Layer",
+					"color": "#c0c0c0"
+				},
+				{
+					"layerId": 13,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Document Layer",
+					"color": "#ffffff"
+				},
+				{
+					"layerId": 14,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Mechanical Layer",
+					"color": "#f022f0"
+				},
+				{
+					"layerId": 47,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Hole Layer",
+					"color": "#222222"
+				},
+				{
+					"layerId": 48,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Shape Layer",
+					"color": "#00cccc"
+				},
+				{
+					"layerId": 49,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Marking Layer",
+					"color": "#66ffcc"
+				},
+				{
+					"layerId": 50,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Soldering Layer",
+					"color": "#cc9999"
+				},
+				{
+					"layerId": 51,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Floating Layer",
+					"color": "#ff99ff"
+				},
+				{
+					"layerId": 53,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Outline Layer",
+					"color": "#66ff99"
+				},
+				{
+					"layerId": 54,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Top Layer",
+					"color": "#ffccff"
+				},
+				{
+					"layerId": 55,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Bottom Layer",
+					"color": "#0066cc"
+				},
+				{
+					"layerId": 56,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Drill Drawing Layer",
+					"color": "#008080"
+				},
+				{
+					"layerId": 57,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Ratline Layer",
+					"color": "#009999"
+				}
+			],
+			"name": "Drill Drawing",
+			"pageNo": 3,
+			"colorType": "Black on White"
+		},
+		{
+			"checked": true,
+			"pageNo": 4,
+			"layer": [
+				{
+					"layerId": 1,
+					"isMirror": false,
+					"transparency": 15,
+					"checked": true,
+					"layerName": "Top Layer",
+					"color": "#990033"
+				},
+				{
+					"layerId": 2,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Bottom Layer",
+					"color": "#6699cc"
+				},
+				{
+					"layerId": 3,
+					"isMirror": false,
+					"transparency": 30,
+					"checked": true,
+					"layerName": "Top Silkscreen Layer",
+					"color": "#000000"
+				},
+				{
+					"layerId": 4,
+					"isMirror": false,
+					"transparency": 30,
+					"checked": true,
+					"layerName": "Bottom Silkscreen Layer",
+					"color": "#006600"
+				},
+				{
+					"layerId": 5,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Solder Mask Layer",
+					"color": "#800080"
+				},
+				{
+					"layerId": 6,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Solder Mask Layer",
+					"color": "#aa00ff"
+				},
+				{
+					"layerId": 7,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Paste Mask Layer",
+					"color": "#808080"
+				},
+				{
+					"layerId": 8,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Paste Mask Layer",
+					"color": "#800000"
+				},
+				{
+					"layerId": 9,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Top Assembly Layer",
+					"color": "#33cc99"
+				},
+				{
+					"layerId": 10,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Bottom Assembly Layer",
+					"color": "#5555ff"
+				},
+				{
+					"layerId": 11,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Board Outline Layer",
+					"color": "#ff00ff"
+				},
+				{
+					"layerId": 12,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Multi-Layer",
+					"color": "#c0c0c0"
+				},
+				{
+					"layerId": 13,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Document Layer",
+					"color": "#CCCCCC"
+				},
+				{
+					"layerId": 14,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Mechanical Layer",
+					"color": "#f022f0"
+				},
+				{
+					"layerId": 47,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": true,
+					"layerName": "Hole Layer",
+					"color": "#FFFFFF"
+				},
+				{
+					"layerId": 48,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Shape Layer",
+					"color": "#00cccc"
+				},
+				{
+					"layerId": 49,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Component Marking Layer",
+					"color": "#66ffcc"
+				},
+				{
+					"layerId": 50,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Soldering Layer",
+					"color": "#cc9999"
+				},
+				{
+					"layerId": 51,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Pin Floating Layer",
+					"color": "#ff99ff"
+				},
+				{
+					"layerId": 53,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Outline Layer",
+					"color": "#66ff99"
+				},
+				{
+					"layerId": 54,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Top Layer",
+					"color": "#ffccff"
+				},
+				{
+					"layerId": 55,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "3D Shell Bottom Layer",
+					"color": "#0066cc"
+				},
+				{
+					"layerId": 56,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Drill Drawing Layer",
+					"color": "#008080"
+				},
+				{
+					"layerId": 57,
+					"isMirror": false,
+					"transparency": 0,
+					"checked": false,
+					"layerName": "Ratline Layer",
+					"color": "#009999"
+				}
+			],
+			"object": [
+				"TopPad",
+				"BottomPad",
+				"MultiPad",
+				"Via",
+				"PadDrill",
+				"ViaDrill",
+				"Track",
+				"Text",
+				"Image",
+				"Dimension",
+				"BoardOutline",
+				"BoardCutout",
+				"CopperOutline",
+				"CopperFilled",
+				"TearDrop",
+				"SolidRegion",
+				"ProhibitedRegion",
+				"FPCStiffener",
+				"Line",
+				"PlaneZone",
+				"ComponentProperty",
+				"ComponentSilkscreen",
+				"Shell_Outline",
+				"Shell_ScrewPillar",
+				"Shell_SideDatumLine",
+				"Shell_SideSlotRegion",
+				"Shell_TopBottomSlotRegion",
+				"Shell_SideEntity",
+				"Shell_TopBottomEntity"
+			],
+			"name": "Custom",
+			"colorType": "Full Color",
+			"background": {
+				"checked": true,
+				"color": "#FFFFFF"
+			}
+		}
+	],
+	"rangeText": "EVA_RT_PCB"
+}
