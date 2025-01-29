@@ -16,7 +16,8 @@ ACRC2025 - 1er y 2do lugar
 - 2x QRE1113GR mark sensors
 - Ruedas de rodillos para impresora
 - Peso: 89gr
-![EVA-RT](.images/PCB_render.jpg)
+
+![EVA-RT](.images/PCB_render.jpeg)
 
 # ENTORNOS DE DESARROLLO
 - Arduino IDE 2.0.2
