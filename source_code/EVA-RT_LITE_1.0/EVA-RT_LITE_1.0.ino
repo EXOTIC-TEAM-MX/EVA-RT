@@ -1,7 +1,9 @@
 /*
   EVA-RT LITE v1.0 - main code for robotracer EVA-RT series
-  Copyright (c) 2025 EXOTIC TEAM MX. All right reserved
-
+  
+    Created on: Jan, 2025
+    Edited by Mauricio Tovar
+  
       DRIVERS:            IXF9201SG
       NUMBER OF SENSORS:  12A/3s
       MICROCONTROLLER:    ATMEGA328P-AU
@@ -18,8 +20,20 @@
   functions included in the Arduino core library. It includes
   the reading of the side sensors for detecting the goal marker.
 
-    Created on: Jan, 2025
-    Author: Mauricio Tovar
+  Copyright (C) 2025 EXOTIC TEAM
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
   This code is part of the EVA-RT Github repository. See more
   in the next link:
