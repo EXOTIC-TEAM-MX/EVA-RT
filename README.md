@@ -1,9 +1,5 @@
 # EVA-RT
-EVA-RT es nueva serie de robotracers con impeller centrifugo y sensores laterales para marcas. Creado en diciembre de 2024 para participar en la All Chile robot Contest 2025, obteniendo buenos resultados a pesar de su simplicidad.
-
-Logros obtenidos:
-
-ACRC2025 - 1er y 2do lugar
+EVA-RT is the new robotracer series with centrifugal fan and side sensors for trace marks. Created in December 2024 to participate in the All Chile robot Contest 2025, obtaining good results despite its simplicity.
 
 ![EVA-RT](./images/EVA-RT_01.jpg)
 
