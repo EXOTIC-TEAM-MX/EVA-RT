@@ -9,17 +9,25 @@ ACRC2025 - 1er y 2do lugar
 
 # HARDWARE
 - ATMEGA328P-AU
-- GNB LiPo Battery 2S 7.4V 300mAh 60C-120C
-- 3x DC Coreless 1020 7.4V
+- GNB LiPo Battery 2S 7.4V 300mAh
+- 3x DC Coreless Motor 1020 7.4V
 - IFX9201SG
-- 12x QRE1113GR line sensor
-- 2x QRE1113GR mark sensors
-- Ruedas de rodillos para impresora
-- Peso: 89gr
+- 12x QRE1113GR line sensors
+- 2x QRE1113GR side sensors
+- Printer roller wheels
+- Weight: 89gr
 
-![EVA-RT](.images/PCB_render.jpeg)
+![EVA-RT](./images/PCB_render.jpeg)
 
-# ENTORNOS DE DESARROLLO
+# ENVIROMENT
 - Arduino IDE 2.0.2
 - Autodesk Fusion 360
 - EasyEDA-ProV2.2.34.8
+
+#  Robotracer EVA-RT01 code LITE1.0
+[![](https://i.ytimg.com/vi/mkbgixV5h3M/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgYihOMA8=&rs=AOn4CLAF64YJfgdeUuFDjKqJce8nI8pS6g)](https://youtu.be/mkbgixV5h3M)
+
+# LICENSE
+This repository is released under the GNU Affero General Public License v3.0.
+
+©  EXOTIC TEAM MX
