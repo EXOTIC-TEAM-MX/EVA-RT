@@ -24,7 +24,7 @@
   visualization of all these methods. So there may be errors
   and/or bad programming practices.
 
-    Copyright (C) 2025 EXOTIC TEAM
+    Copyright (C) 2025 EXOTIC TEAM MX
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
