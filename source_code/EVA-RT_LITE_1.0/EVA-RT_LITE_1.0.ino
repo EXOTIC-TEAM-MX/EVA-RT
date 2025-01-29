@@ -20,7 +20,7 @@
   functions included in the Arduino core library. It includes
   the reading of the side sensors for detecting the goal marker.
 
-  Copyright (C) 2025 EXOTIC TEAM
+  Copyright (C) 2025 EXOTIC TEAM MX
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
