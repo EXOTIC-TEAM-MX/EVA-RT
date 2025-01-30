@@ -4,19 +4,22 @@ EVA-RT is the new robotracer series with centrifugal fan and side sensors for cu
 Achievements:
 - ACRC2025 - 1st and 2nd place
 
-This repository contains the source code, 3D models, caracteristics and schematics files of the robot.
+This repository contains the source code, 3D models, details and PCB files of the robot.
 
 ![EVA-RT](./images/EVA-RT_01.jpg)
 
-# HARDWARE
-- ATMEGA328P-AU
-- GNB LiPo Battery 2S 7.4V 300mAh
-- 3x DC Coreless Motor 1020 7.4V
-- IFX9201SG
-- 12x QRE1113GR line sensors
-- 2x QRE1113GR side sensors
-- Printer roller wheels
-- Weight: 89gr
+# DETAILS
+- Name: EVA-RT
+- Dimensions: 117 x 146 x 38 mm
+- Weight: 89g
+- MCU: ATMEGA328P-AU
+- Line sensor: 12x QRE1113GR
+- Side sensor: 2x QRE1113GR
+- Motor: x3 unknown model 1020 7.4V
+- Motor Driver: x2 IFX9201SG, RM10N100LD (impeller MOSFET)
+- Battery: GAONENG 2S 7.4V 300mAh (80C/160C)
+- Gears (M0.3): Spur 64T, pinnion 11T
+- Wheel Tires: unknown model printer roller
 
 ![EVA-RT](./images/PCB_render.jpeg)
 
