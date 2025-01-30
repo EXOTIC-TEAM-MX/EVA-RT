@@ -388,6 +388,7 @@ void resetCalibrationValues() {
 unsigned int readLine() {
   uint32_t wtd = 0;  //  temporal sum of weighted sensor values
   uint32_t sum = 0;  //  temporal sum of sensor values
+  isOnLine = false;  //  set line is not on sensors range at the start of line position calculation
 
   //  get calibrated sensor read values
   readCalibratedSensors();
@@ -395,7 +396,7 @@ unsigned int readLine() {
   for (byte i = 0; i < NUM_SENSORS; i++) {
     //  add to sum if actual sensor value is higher to zero
     if (sensorValues[i]) {
-      isOnLine = true;
+      isOnLine = true;  // updates to true if at least one sensor detects the line
       wtd += (uint32_t)sensorValues[i] * i * 1000;
       sum += sensorValues[i];
     }
