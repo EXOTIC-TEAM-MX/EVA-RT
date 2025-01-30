@@ -14,9 +14,9 @@ This repository contains the source code, 3D models, details and PCB files of th
 - Weight: 89g
 - MCU: ATMEGA328P-AU
 - Line sensor: 12x QRE1113GR
-- Side sensor: 2x QRE1113GR
-- Motor: x3 unknown model 1020 7.4V
-- Motor Driver: x2 IFX9201SG, RM10N100LD (impeller MOSFET)
+- Side sensor: 12x QRE1113GR
+- Motor: 3x unknown model 1020 7.4V
+- Motor Driver: 2x IFX9201SG, RM10N100LD
 - Battery: GAONENG 2S 7.4V 300mAh (80C/160C)
 - Gears (M0.3): Spur 64T, pinnion 11T
 - Wheel Tires: unknown model printer roller
