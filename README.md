@@ -8,6 +8,7 @@ This repository contains the details, source code, 3D models and PCB files of th
 
 ![EVA-RT](./images/EVA-RT_01.jpg)
 ![EVA-RT](./images/EVA-RT_01_1.jpg)
+![EVA-RT](./images/EVA-RT_01_2.jpg)
 
 # DETAILS
 - Name: EVA-RT
