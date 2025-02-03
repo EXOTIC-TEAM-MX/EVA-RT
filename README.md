@@ -4,7 +4,7 @@ EVA-RT is the new robotracer series with centrifugal fan and side sensors for cu
 Achievements:
 - ACRC2025 - 1st and 2nd place
 
-This repository contains the details, source code, 3D models and PCB files of the robot.
+This repository contains the details, source code, 3D models, PCB files of the robot and EasyEDA proyect available for editing and exporting!
 
 ![EVA-RT](./images/EVA-RT_01.jpg)
 ![EVA-RT](./images/EVA-RT_01_1.jpg)
