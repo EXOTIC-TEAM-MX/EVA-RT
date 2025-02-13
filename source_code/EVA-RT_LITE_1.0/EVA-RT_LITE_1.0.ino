@@ -271,18 +271,15 @@ void loop() {
       long controlSignal = (error * KP) + ((long)(dx)*KD);
 
       //  constrain control signal
-      controlSignal = (controlSignal < -510) ? -510 : (controlSignal > 510) ? 510
-                                                                            : controlSignal;
+      controlSignal = constrain(controlSignal, -510, 510);
 
       //  get motor PWM values
       int valPWMA = SPEED + controlSignal - speedDecrement;
       int valPWMB = SPEED - controlSignal - speedDecrement;
 
       //  constrain motor PWM values
-      valPWMA = (valPWMA < -255) ? -255 : (valPWMA > 255) ? 255
-                                                          : valPWMA;
-      valPWMB = (valPWMB < -255) ? -255 : (valPWMB > 255) ? 255
-                                                          : valPWMB;
+      valPWMA = constrain(valPWMA, -255, 255);
+      valPWMB = constrain(valPWMB, -255, 255);
 
       //  set motors PWM
       setMotors(valPWMA, valPWMB);
@@ -376,7 +373,7 @@ void updateMarkState() {
   }
 }
 
-//  resets minimum and maximmun sensor values
+//  resets minimum and maximum sensor values
 void resetCalibrationValues() {
   for (byte i = 0; i < TOTAL_SENSORS; i++) {
     maxSensorValues[i] = 0;
@@ -472,8 +469,8 @@ void readCalibratedSensors() {
   }
 
   //  set mark sensors values to 1 if its raw value is higher than threshold
-  sensorValues[INDEX_MS0] = sensorValues[INDEX_MS0] > sensorThreshold[INDEX_MS0] ? 1 : 0;
-  sensorValues[INDEX_MS1] = sensorValues[INDEX_MS1] > sensorThreshold[INDEX_MS1] ? 1 : 0;
+  sensorValues[INDEX_MS0] = sensorValues[INDEX_MS0] > sensorThreshold[INDEX_MS0];
+  sensorValues[INDEX_MS1] = sensorValues[INDEX_MS1] > sensorThreshold[INDEX_MS1];
 }
 
 //  updates minimum and maximum sensor values
@@ -482,7 +479,7 @@ void calibrateSensors() {
   int lowestSample[TOTAL_SENSORS];   //  temporal lowest collector sample for each sensor
 
   //  samples recollector
-  for (byte j = 0; j < CALIBRATION_AVG_SAMPLES; j++) {
+  for (byte j = 0; j < CALIBRATION_COLLECTOR_SAMPLES; j++) {
     readSampledSensors();
 
     for (byte i = 0; i < TOTAL_SENSORS; i++) {
@@ -515,8 +512,7 @@ void calibrateSensors() {
 }
 
 void setImpeller(int _pwm) {
-  analogWrite(PIN_PWM_C, (_pwm <= 0) ? 0 : (_pwm >= 255) ? 255
-                                                         : _pwm);
+  analogWrite(PIN_PWM_C, constrain(_pwm, 0, 255));
 }
 
 void setMotors(int _pwm_a, int _pwm_b) {
