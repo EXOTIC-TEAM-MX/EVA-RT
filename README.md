@@ -32,7 +32,7 @@ This repository contains the details, source code, 3D models, PCB files of the r
 - EasyEDA-ProV2.2.34.8
 
 #  Robotracer EVA-RT01 code LITE1.0 test
-[![](https://i.ytimg.com/vi/mkbgixV5h3M/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgYihOMA8=&rs=AOn4CLAF64YJfgdeUuFDjKqJce8nI8pS6g)](https://youtu.be/mkbgixV5h3M)
+[![](./images/Video_Test.png)](https://youtu.be/mkbgixV5h3M)
 
 # LICENSE
 This repository is released under the GNU Affero General Public License v3.0.
