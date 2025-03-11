@@ -259,11 +259,11 @@ void loop() {
 
     //  if is online and position is no equal to the limits, calculate control signal and PWM values
     if (isOnLine && position && position != (NUM_SENSORS - 1) * 1000) {
-      //  check last detected side
-      if (sensorValues[0] > sensorThreshold[0] || sensorValues[1] > sensorThreshold[1]) {
+      //  check the last detected side of the line
+      if (sensorValues[0] || sensorValues[1]) {
         lastDetectedSide = 0;
       }
-      if (sensorValues[NUM_SENSORS - 1] > sensorThreshold[NUM_SENSORS - 1] || sensorValues[NUM_SENSORS - 2] > sensorThreshold[NUM_SENSORS - 2]) {
+      if (sensorValues[NUM_SENSORS - 1] || sensorValues[NUM_SENSORS - 2]) {
         lastDetectedSide = 1;
       }
 
