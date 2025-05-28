@@ -41,9 +41,9 @@
   https://github.com/EXOTIC-TEAM-MX/EVA-RT
 */
 
-//  ============================
-//  U S E R   V A R I A B L E S
-//  ============================
+//  =============================
+//  U S E R   P A R A M E T E R S
+//  =============================
 
 #define KP 0.04  //  proportional component coefficient (0.04)
 #define KD 0.6   //  derivative component coefficient (0.6)
@@ -57,9 +57,9 @@
 #define RUN_TIME_MS 6000    //  time until robot turns off automatically since start running (6000)
 #define MAX_OUT_TIME_MS 10  //  maximum time sensors can be out of line until robot turns off (10)
 
-//  ===================================
-//  A D V A N C E D   V A R I A B L E S
-//  ===================================
+//  =====================================
+//  A D V A N C E D   P A R A M E T E R S
+//  =====================================
 
 #define OUT_OUTTER_SPEED 255  //  outter side motor PWM value when sensors are offline (255)
 #define OUT_INNER_SPEED -255  //  inner side motor PWM value when sensors are offline (-255)
@@ -74,9 +74,9 @@
 #define CALIBRATION_AVG_SAMPLES 8
 #define CALIBRATION_COLLECTOR_SAMPLES 10
 
-//  ===================================
-//  C O N S T A N T   V A R I A B L E S
-//  ===================================
+//  =============================
+//  C O N S T A N T   M A C R O S
+//  =============================
 
 //  user input pins
 #define PIN_BUTTON_1 11
@@ -103,15 +103,15 @@
 
 #define NUM_SENSORS 12      //  ammount of line sensors
 #define NUM_MARK_SENSORS 2  //  ammount of side mark sensors
-#define TOTAL_SENSORS NUM_SENSORS + NUM_MARK_SENSORS
+#define TOTAL_SENSORS (NUM_SENSORS + NUM_MARK_SENSORS)
 #define INDEX_MS0 NUM_SENSORS
-#define INDEX_MS1 NUM_SENSORS + 1
+#define INDEX_MS1 (NUM_SENSORS + 1)
 #define FIRST_SENSOR_MUX_SWITCH_CONFIG 2  //  mux switch configuration for first line sensor (S0)
 #define LAST_SENSOR_MUX_SWITCH_CONFIG 13  //  mux switch configuration for last line sensor (S11)
 
-//  =================================
-//  P R I V A T E   V A R I A B L E S
-//  =================================
+//  ===============================
+//  G L O B A L   V A R I A B L E S
+//  ===============================
 
 int sensorValues[TOTAL_SENSORS];
 unsigned int maxSensorValues[TOTAL_SENSORS];
@@ -122,7 +122,7 @@ bool markState[2];
 bool pastMarkSensorValues[2];
 
 unsigned long startTime;              //  instant time before start running
-unsigned long currentTime;            //  urrent time
+unsigned long currentTime;            //  current time
 unsigned long outStartTime;           //  last time before sensors gets offline
 unsigned long markRisingEdgeTime[2];  //  instant time when marks sensors reads rising edge
 
@@ -220,7 +220,7 @@ void setup() {
 }
 
 //  =============================================================
-//                       M A I N   L O O P
+//                    R U N N I N G    L O O P
 //  =============================================================
 
 void loop() {
@@ -316,7 +316,7 @@ void loop() {
   }
 
   //  =============================================================
-  //                       R O B O T   O F F
+  //                    R U N N I N G    S T O P
   //  =============================================================
 
   setMotors(-SPEED, -SPEED);  //  instant brake
