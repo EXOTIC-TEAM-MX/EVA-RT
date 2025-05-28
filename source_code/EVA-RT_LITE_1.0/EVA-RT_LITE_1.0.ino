@@ -74,9 +74,9 @@
 #define CALIBRATION_AVG_SAMPLES 8
 #define CALIBRATION_COLLECTOR_SAMPLES 10
 
-//  =============================
-//  C O N S T A N T   M A C R O S
-//  =============================
+//  ===============================
+//  G L O B A L   C O N S T A N T S
+//  ===============================
 
 //  user input pins
 #define PIN_BUTTON_1 11
@@ -252,7 +252,7 @@ void loop() {
     error = position - (NUM_SENSORS - 1) * 1000 / 2;
 
     //  calculate error difference
-    int dx = error - previousError;
+    int deltaError = error - previousError;
     previousError = error;  //  update previous error after
 
     updateMarkState();
@@ -268,7 +268,7 @@ void loop() {
       }
 
       //  calculate control signal
-      long controlSignal = (error * KP) + ((long)(dx)*KD);
+      long controlSignal = (error * KP) + ((long)(deltaError)*KD);
 
       //  constrain control signal
       controlSignal = constrain(controlSignal, -510, 510);
@@ -511,10 +511,12 @@ void calibrateSensors() {
   }
 }
 
+//  updates impeller PWM duty values
 void setImpeller(int _pwm) {
   analogWrite(PIN_PWM_C, constrain(_pwm, 0, 255));
 }
 
+//  updates both motors PWM duty values
 void setMotors(int _pwm_a, int _pwm_b) {
   //  set direction output on motor A
   if (_pwm_a > 0) {
